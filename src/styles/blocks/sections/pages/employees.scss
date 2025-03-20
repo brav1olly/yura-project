@@ -1,0 +1,26 @@
+.employees {
+    padding-top: 10.25rem;
+    margin-inline: auto;
+    @include df_fdc;
+    gap: 9.125rem;
+    .title {
+        font-size: 2rem;
+        font-weight: 400;
+        color: #000;
+        text-align: center;
+    }
+    .content {
+        margin-inline: auto;
+        width: 70.625rem;
+        display: flex;
+        justify-content: space-between;
+        .container-img {
+            width: 10.625rem;
+            height: 13rem;
+            img {
+                width: 100%;
+                border-radius: 1.25rem;
+            }
+        }
+    }
+}

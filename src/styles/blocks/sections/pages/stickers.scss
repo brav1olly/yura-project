@@ -1,0 +1,32 @@
+.stickers {
+    padding-top: 0.8125rem;
+    padding-bottom: 11rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    img {
+        width: 53.3125rem;
+        height: 37.125rem;
+        margin-inline: auto;
+    }
+    .text {
+        padding-top: 3.8125rem;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 400;
+        color: #000;
+        margin-inline: auto;
+    }
+    button {
+        margin-top: 4rem;
+        width: fit-content;
+        margin-inline: auto;
+        padding: 1.0625rem 3.5625rem;
+        background-color: #EB655A;
+        border-radius: 0.625rem;
+        color: #fff;
+        font-size: 1.25rem;
+        font-family: 'Inter', sans-serif;
+    }
+}

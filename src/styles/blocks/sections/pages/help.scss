@@ -1,0 +1,32 @@
+.help {
+    width: calc(100% + 0.25rem);
+    margin-top: 15.4375rem;
+    padding: 5.875rem 0rem 8.4375rem 11.125rem;
+    background-color: #6B81BD;
+    .container-content {
+        @include df_fdc;
+        gap: 3.5rem;
+        .title {
+            color: #fff;
+            font-size: 2rem;
+            font-weight: 400;
+        }
+        .item-cont {
+            @include df_fdc;
+            gap: 5.3125rem;
+        }
+        .item {
+            @include df_ac;
+            gap: 4.0625rem;
+            svg {
+                width: 6rem;
+                height: 6rem;
+            }
+            p {
+                color: #fff;
+                font-weight: 400;
+                font-size: 1.5625rem;
+            }
+        }
+    }
+}

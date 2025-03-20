@@ -65,6 +65,7 @@ main {
 main .main-border {
   border: 0.4375rem solid #6B81BD;
   border-radius: 3.125rem;
+  overflow: hidden;
 }
 
 hr {
@@ -273,6 +274,81 @@ header button {
   font-size: 1.25rem;
 }
 
+footer {
+  width: 100%;
+  padding: 11.6875rem 5.875rem 3.3125rem 17.125rem;
+  position: relative;
+  background-color: #6B81BD;
+  display: flex;
+}
+footer .svg-cont {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2.0625rem;
+  margin-right: 21.1875rem;
+}
+footer .svg-cont .svg-item {
+  display: flex;
+  align-items: center;
+  gap: 3.875rem;
+}
+footer .svg-cont .svg-item svg {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+footer .svg-cont .svg-item p {
+  color: #fff;
+  font-size: 1.25rem;
+}
+footer nav:first-child {
+  margin-right: 17.125rem;
+}
+footer nav:nth-child(2) {
+  margin-right: 9.375rem;
+}
+footer nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+footer nav ul li {
+  font-size: 1.25rem;
+  color: #fff;
+}
+footer .container-img {
+  margin-left: 9.375rem;
+  width: 7.6875rem;
+  height: 7.6875rem;
+  position: relative;
+}
+footer .container-img img {
+  width: 100%;
+}
+footer .container-img .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #777E86;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+footer .block-logo {
+  position: absolute;
+  top: -8.875rem;
+  left: 15.8125rem;
+  width: 17.8125rem;
+  height: 15.875rem;
+  border-radius: 1.875rem;
+  z-index: 50;
+  background-color: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  padding: 1.875rem 3.5625rem;
+}
+
 .hero-text {
   padding-top: 12.6875rem;
   padding-left: 22.8125rem;
@@ -431,7 +507,7 @@ header button {
 }
 .news .container-news .item {
   width: 24.1875rem;
-  height: 19.9375rem;
+  height: 24.1875rem;
   padding: 0.75rem 2.0625rem;
   display: flex;
   flex-direction: column;
@@ -439,9 +515,118 @@ header button {
 }
 .news .container-news .item .container-img {
   max-width: 21.0625rem;
+  overflow: hidden;
 }
 .news .container-news .item .container-img img {
   width: 100%;
+}
+.news .container-news .item .text {
+  padding-inline: 0.5625rem;
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #000;
+}
+
+.h-full {
+  width: fit-content;
+  height: 100%;
+}
+
+.employees {
+  padding-top: 10.25rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 9.125rem;
+}
+.employees .title {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+}
+.employees .content {
+  margin-inline: auto;
+  width: 70.625rem;
+  display: flex;
+  justify-content: space-between;
+}
+.employees .content .container-img {
+  width: 10.625rem;
+  height: 13rem;
+}
+.employees .content .container-img img {
+  width: 100%;
+  border-radius: 1.25rem;
+}
+
+.help {
+  width: calc(100% + 0.25rem);
+  margin-top: 15.4375rem;
+  padding: 5.875rem 0rem 8.4375rem 11.125rem;
+  background-color: #6B81BD;
+}
+.help .container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+.help .container-content .title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.help .container-content .item-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 5.3125rem;
+}
+.help .container-content .item {
+  display: flex;
+  align-items: center;
+  gap: 4.0625rem;
+}
+.help .container-content .item svg {
+  width: 6rem;
+  height: 6rem;
+}
+.help .container-content .item p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5625rem;
+}
+
+.stickers {
+  padding-top: 0.8125rem;
+  padding-bottom: 11rem;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.stickers img {
+  width: 53.3125rem;
+  height: 37.125rem;
+  margin-inline: auto;
+}
+.stickers .text {
+  padding-top: 3.8125rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000;
+  margin-inline: auto;
+}
+.stickers button {
+  margin-top: 4rem;
+  width: fit-content;
+  margin-inline: auto;
+  padding: 1.0625rem 3.5625rem;
+  background-color: #EB655A;
+  border-radius: 0.625rem;
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: "Inter", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */
