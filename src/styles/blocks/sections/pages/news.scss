@@ -1,0 +1,31 @@
+.news {
+    padding-top: 6.0625rem;
+    margin-inline: auto;
+    @include df_fdc;
+    align-items: center;
+    gap: 2.6875rem;
+    .title {
+        font-size: 2rem;
+        font-weight: 400;
+        color: #000;
+        text-align: center;
+    }
+    .container-news {
+        width: fit-content;
+        @include grid(2, 4.0625rem);
+        row-gap: 5.625rem;
+        .item {
+            width: 24.1875rem;
+            height: 19.9375rem;
+            padding: 0.75rem 2.0625rem;
+            @include df_fdc;
+            gap: 0.9375rem;
+            .container-img {
+                max-width: 21.0625rem;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

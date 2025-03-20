@@ -21,16 +21,19 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    // color: ;
-    // font-family: ;
 }
 
 main {
+    padding: 1.625rem 4.1875rem 6.625rem;
     max-width: 1921px;
     margin: 0 auto;
     @include desktop {
         margin: 0;
         max-width: none;
+    }
+    .main-border {
+        border: 0.4375rem solid #6B81BD;
+        border-radius: 3.125rem;
     }
 }
 
